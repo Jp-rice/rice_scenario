@@ -1,0 +1,11 @@
+@startuml scenario-013-01
+'categories = Data Types - Field Operation
+title Yield and Work trajectory Data
+
+entity "Farm Management\nSoftware\n(Farmers)" as 0
+entity "Farm Equipment\nSoftware\n(Farm Contractors)" as 1
+
+0 ->> 1: [[/docs/work-record Work Orders]]
+1 ->> 0: [[/docs/work-order Work Records]]& [[Trajectory]]  
+
+@enduml
