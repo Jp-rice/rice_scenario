@@ -14,5 +14,23 @@
  ### Work Reports
  [Work reports of harvest](/docs/examples/Scenario13/adapt.json)
 
- - Operation includes OperationTypeEnum.
-   稲作で利用する作業項目を抜粋して添付
+## [Explanation of the rice_scenario]
+- Images in Section "13.0 Overview" will be created using rice_scenario.plantUML
+  The "rice_scenario.plantUML" can be visualized at the following URL:
+  https://www.plantuml.com/plantuml/
+- In Section "13.2 Example", sample data will be uploaded. 
+- "OperationTypeEnum" for rice cultivation will be added in the bottom of the page.
+
+### rice_scenario.plantUML
+  @startuml scenario-013-01
+'categories = Data Types - Field Operation
+title Yield and Work trajectory Data
+
+entity "Farm Management\nSoftware\n(Farmers)" as 0
+entity "Farm Equipment\nSoftware\n(Farm Contractors)" as 1
+
+0 ->> 1: [[/docs/work-record Work Orders]]
+1 ->> 0: [[/docs/work-order Work Records]]& [[Trajectory]]  
+
+@enduml
+
