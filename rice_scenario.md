@@ -13,13 +13,3 @@
 
  ### Work Reports
  [Work reports of harvest](/docs/examples/Scenario13/adapt.json)
-
-## [Explanation of the rice_scenario]
-- Images in Section "13.0 Overview" will be created using rice_scenario.plantUML
-  The "rice_scenario.plantuml" can be visualized at the following URL:
-  https://www.plantuml.com/plantuml/
-- In Section "13.2 Example", sample data will be uploaded. 
-- "OperationTypeEnum" for rice cultivation will be added in the bottom of the page.
-
-### rice_scenario.plantuml
-Please check "Jp-rice/rice_scenario.plantuml"
